@@ -6,7 +6,6 @@ package com.pitecan.slime;
 
 import java.util.Arrays;
 import android.util.Log;
-// import android.os.AsyncTask;
 
 class Candidate {
     String pat, word;
@@ -78,21 +77,20 @@ public class Search {
 
         if(!searchTask.isCancelled()){
             // Google Suggest または Google日本語入力を利用
-            /*
             if(useGoogle){
                 if(slime.isConnected()){
                     // 昔はGoogleSuggestを使っていたが制限があるようなのでGoogleIME APIを利用する
                     // String[] suggestions = GoogleSuggest.suggest(word);
-                    //		    String[] suggestions = GoogleIME.ime(word);
-                    String[] suggestions = {};
-                    Log.v("SLIME","length="+suggestions.length);
+                    // String[] suggestions = {};
+
+                    String[] suggestions = GoogleIME.ime(word);
+                    Log.v("Slime","length="+suggestions.length);
                     for(int i=0;suggestions[i] != null && suggestions[i] != "";i++){
                         // Log.v("Slime","Use Google ... suggestions = "+suggestions[i]);
                         addCandidateWithLevel(suggestions[i],Keys.hira2pat(word),50);
                     }
                 }
             }
-            */
             
             // 優先度に従って候補を並べなおし
             //for(int j=ncands;j<Slime.MAXCANDS;j++){
@@ -113,7 +111,7 @@ public class Search {
     }
 
     public static void addCandidate(String word, String pat){
-        Log.v("Slime", "AddCandidate "+word);
+        //Log.v("Slime", "AddCandidate "+word);
         addCandidateWithLevel(word,pat,0);
     }
 
@@ -129,7 +127,7 @@ public class Search {
             candidates[ncands].pat = pat;
             candidates[ncands].word = word;
             candidates[ncands].weight = level;
-            Log.v("Slime", "Add "+word+" to candidates");
+            //Log.v("Slime", "Add "+word+" to candidates");
             ncands++;
         }
     }
