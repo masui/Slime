@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Slime</string>
+    <string name="action_settings">Settings</string>
+    <string name="test_string">Test_String</string>
+</resources>
