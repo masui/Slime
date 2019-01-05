@@ -20,6 +20,16 @@ allprojects {
         google()
         jcenter()
     }
+
+    // http://a01.hatenablog.com/entry/2017/04/13/220907
+    // 実行フェーズ開始前
+    gradle.projectsEvaluated {
+        // options.encoding = 'UTF-8'とかもこのちゅうかっこの中で指定できる
+        tasks.withType(JavaCompile) {
+            // オプション指定．uncheckedは未チェックなもの(*1)，deprecationは非推奨なものを表示する
+            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        }
+    }
 }
 
 task clean(type: Delete) {
