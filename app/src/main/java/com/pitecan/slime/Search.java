@@ -77,7 +77,7 @@ public class Search {
 
         if(!searchTask.isCancelled()){
             // Google Suggest または Google日本語入力を利用
-            if(useGoogle){
+            if(useGoogle && LocalDict.exactMode){
                 if(slime.isConnected()){
                     // 昔はGoogleSuggestを使っていたが制限があるようなのでGoogleIME APIを利用する
                     // String[] suggestions = GoogleSuggest.suggest(word);
