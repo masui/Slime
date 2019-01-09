@@ -48,7 +48,7 @@ public class Search {
         KeyController.candPage = 1;
         
         // ひらがな/カタカナ
-        if(LocalDict.exactMode || true){
+        if(LocalDict.exactMode){
             String hira = word;
             String p = Keys.hira2pat(hira); // 無理矢理ひらがなをローマ字パタンに変換
             addCandidateWithLevel(hira,p,-100);
