@@ -29,7 +29,7 @@
 <ul>
   <li>AndroidStudioまたはGradleでビルドする</li>
   <li>Slime.apkをAndroidにインストールする</li>
-  <li>Alimeを標準入力システムに設定する</li>
+  <li>Slimeを標準入力システムに設定する</li>
 </ul>
 
 <h2>TODO / バグ</h2>
