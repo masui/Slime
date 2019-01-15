@@ -2,6 +2,7 @@
 *~
 *.iml
 .gradle
+/bin
 /.idea
 /.idea/caches/build_file_checksums.ser
 /.idea/libraries

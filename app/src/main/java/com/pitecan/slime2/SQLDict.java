@@ -19,7 +19,7 @@
 // http://developer.android.com/intl/ja/reference/android/database/sqlite/SQLiteDatabase.html
 // http://developer.android.com/intl/ja/reference/android/database/Cursor.html
 
-package com.pitecan.slime;
+package com.pitecan.slime2;
 
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;

@@ -5,7 +5,7 @@
 //      Slimeとして頑張る 2011/11/20
 //
 
-package com.pitecan.slime;
+package com.pitecan.slime2;
 
 import android.inputmethodservice.InputMethodService;
 import android.view.inputmethod.CompletionInfo;

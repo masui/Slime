@@ -1,7 +1,7 @@
 //
 //	キー操作に対するアクションメインルーチン
 //
-package com.pitecan.slime;
+package com.pitecan.slime2;
 
 import android.view.MotionEvent;
 import android.view.KeyEvent;

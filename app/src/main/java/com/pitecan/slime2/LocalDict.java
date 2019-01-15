@@ -4,7 +4,7 @@
 //	iPhone用にJSで書いてあったものをAndroid用に書き直し
 //	2010/9/20
 //
-package com.pitecan.slime;
+package com.pitecan.slime2;
 
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;

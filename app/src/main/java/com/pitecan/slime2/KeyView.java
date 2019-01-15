@@ -4,7 +4,7 @@
 // FontMetricsは以下を参照
 // http://wikiwiki.jp/android/?%A5%C6%A5%AD%A5%B9%A5%C8%A4%CE%C9%C1%B2%E8%28FontMetrics%29
 //
-package com.pitecan.slime;
+package com.pitecan.slime2;
 
 import android.view.View;
 import android.view.MotionEvent;

@@ -2,7 +2,7 @@
 // いろんな辞書を検索するものをまとめる
 // その後でまとめてAsyncTaskにする。
 // 
-package com.pitecan.slime;
+package com.pitecan.slime2;
 
 import java.util.Arrays;
 import android.util.Log;

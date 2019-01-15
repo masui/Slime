@@ -6,8 +6,8 @@ android {
         applicationId "com.pitecan.slime2"
         minSdkVersion 26
         targetSdkVersion 26
-        versionCode 32
-        versionName "1.8.2"
+        versionCode VERSIONCODE
+        versionName "VERSION"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

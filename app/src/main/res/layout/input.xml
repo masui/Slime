@@ -1,4 +1,4 @@
-<com.pitecan.slime.KeyView
+<com.pitecan.slime2.KeyView
    xmlns:android="http://schemas.android.com/apk/res/android"
    android:id="@+id/keyboard"
    android:layout_alignParentBottom="true"

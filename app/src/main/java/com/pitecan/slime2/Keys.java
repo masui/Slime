@@ -1,4 +1,4 @@
-package com.pitecan.slime;
+package com.pitecan.slime2;
 
 import android.util.Log;
 import android.graphics.Rect;
